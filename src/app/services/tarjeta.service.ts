@@ -7,7 +7,7 @@ import { observableToBeFn } from 'rxjs/internal/testing/TestScheduler';
   providedIn: 'root'
 })
 export class TarjetaService {
-  private myAppUrl = 'https://localhost:7266/';
+  private myAppUrl = 'https://backend-app-prueba.herokuapp.com/';
   private myApiUrl = 'api/tarjeta/'
 
   constructor(private http: HttpClient) { }
